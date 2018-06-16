@@ -5,6 +5,7 @@ namespace Black_Jack_Game
     public class Game
     {
         ArrayList cardArray;
+        
 
         public Game()
         {
@@ -14,8 +15,10 @@ namespace Black_Jack_Game
         public void Round() {
             cardArray = ShuffleDeck(cardArray);
 
+
         }
 
+        
         public Card DrawCard() {
             Card temp;
             temp = (Card) cardArray[(cardArray.Capacity)]; // retrieves the card-object from the end of the list (top of the deck)
@@ -36,14 +39,14 @@ namespace Black_Jack_Game
                 cardArray.Add(new Card(i, "../../Resources/Cards/C" + i + ".png"));
                 cardArray.Add(new Card(i, "../../Resources/Cards/D" + i + ".png"));
             }
-            for (int i = 11; i < 13; i++) { 
+            for (int i = 11; i <= 13; i++) { 
                 cardArray.Add(new Card(10, "../../Resources/Cards/S" + i + ".png"));
                 cardArray.Add(new Card(10, "../../Resources/Cards/H" + i + ".png"));
                 cardArray.Add(new Card(10, "../../Resources/Cards/C" + i + ".png"));
                 cardArray.Add(new Card(10, "../../Resources/Cards/D" + i + ".png"));
 
             }
-            cardArray = ShuffleDeck(cardArray);
+            cardArray = ShuffleDeck(cardArray); // ?
         }
 
         public ArrayList ShuffleDeck(ArrayList inputList) {

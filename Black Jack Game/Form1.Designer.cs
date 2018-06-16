@@ -79,6 +79,7 @@
             this.btnNewGame.TabIndex = 0;
             this.btnNewGame.Text = "New Game";
             this.btnNewGame.UseVisualStyleBackColor = true;
+            this.btnNewGame.Click += new System.EventHandler(this.btnNewGame_Click);
             // 
             // btnStand
             // 
@@ -385,6 +386,7 @@
         private System.Windows.Forms.PictureBox pBoxDealer4;
         private System.Windows.Forms.PictureBox pBoxDealer3;
         private System.Windows.Forms.PictureBox pBoxDealer2;
+
     }
 }
 

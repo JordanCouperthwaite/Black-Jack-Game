@@ -92,10 +92,10 @@
     <Content Include="Resources\Cards\C7.png" />
     <Content Include="Resources\Cards\C8.png" />
     <Content Include="Resources\Cards\C9.png" />
-    <Content Include="Resources\Cards\CA.png" />
-    <Content Include="Resources\Cards\CJ.png" />
-    <Content Include="Resources\Cards\CK.png" />
-    <Content Include="Resources\Cards\CQ.png" />
+    <Content Include="Resources\Cards\C1.png" />
+    <Content Include="Resources\Cards\C11.png" />
+    <Content Include="Resources\Cards\C13.png" />
+    <Content Include="Resources\Cards\C12.png" />
     <Content Include="Resources\Cards\D10.png" />
     <Content Include="Resources\Cards\D2.png" />
     <Content Include="Resources\Cards\D3.png" />
@@ -105,10 +105,10 @@
     <Content Include="Resources\Cards\D7.png" />
     <Content Include="Resources\Cards\D8.png" />
     <Content Include="Resources\Cards\D9.png" />
-    <Content Include="Resources\Cards\DA.png" />
-    <Content Include="Resources\Cards\DJ.png" />
-    <Content Include="Resources\Cards\DK.png" />
-    <Content Include="Resources\Cards\DQ.png" />
+    <Content Include="Resources\Cards\D1.png" />
+    <Content Include="Resources\Cards\D11.png" />
+    <Content Include="Resources\Cards\D13.png" />
+    <Content Include="Resources\Cards\D12.png" />
     <Content Include="Resources\Cards\H10.png" />
     <Content Include="Resources\Cards\H2.png" />
     <Content Include="Resources\Cards\H3.png" />
@@ -118,10 +118,10 @@
     <Content Include="Resources\Cards\H7.png" />
     <Content Include="Resources\Cards\H8.png" />
     <Content Include="Resources\Cards\H9.png" />
-    <Content Include="Resources\Cards\HA.png" />
-    <Content Include="Resources\Cards\HJ.png" />
-    <Content Include="Resources\Cards\HK.png" />
-    <Content Include="Resources\Cards\HQ.png" />
+    <Content Include="Resources\Cards\H1.png" />
+    <Content Include="Resources\Cards\H11.png" />
+    <Content Include="Resources\Cards\H13.png" />
+    <Content Include="Resources\Cards\H12.png" />
     <Content Include="Resources\Cards\S10.png" />
     <Content Include="Resources\Cards\S2.png" />
     <Content Include="Resources\Cards\S3.png" />
@@ -131,10 +131,10 @@
     <Content Include="Resources\Cards\S7.png" />
     <Content Include="Resources\Cards\S8.png" />
     <Content Include="Resources\Cards\S9.png" />
-    <Content Include="Resources\Cards\SA.png" />
-    <Content Include="Resources\Cards\SJ.png" />
-    <Content Include="Resources\Cards\SK.png" />
-    <Content Include="Resources\Cards\SQ.png" />
+    <Content Include="Resources\Cards\S1.png" />
+    <Content Include="Resources\Cards\S11.png" />
+    <Content Include="Resources\Cards\S13.png" />
+    <Content Include="Resources\Cards\S12.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
